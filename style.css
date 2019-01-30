@@ -1,0 +1,68 @@
+* {padding:0; margin:0;box-sizing: border-box;}
+html {width:100%; height:100%;}
+body {background-color: #ffffff; font-family:"Open Sans"; color:#ffffff; font-size:20px; text-align: center;}
+
+.header-container {margin-bottom: 20px;}
+
+@media only screen and (max-width: 800px) {
+    .header-container {height: 700px;background-image: url('/img/tlo1bmobile.jpg');}
+    .main-container {display: flex;flex-direction: column;justify-content: center;}
+    .aboutme {width: 100%;height: auto;background-image: url('/img/tlo2mobile.jpg');}
+    .whyme {background-image: url('/img/tlo4mobile.jpg');}
+    .foto-of-me {width: 100px;height: 100px;}
+    .me-txt {padding: 20px;margin-bottom: 30px;font-size: 12px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header-container {height: 700px;background-image: url('/img/tlo1b.jpg');}
+    .aboutme {background-image: url('/img/tlo2.jpg');}
+    .all-of-me {display:flex;justify-content: center;}
+    .foto-of-me {display: flex;width: 300px; height: 300px; float:left;margin-left: 50px;margin-bottom: 80px;margin-top: auto;} 
+    .me-txt {width:100%;} 
+    .me-txt {padding: 70px;margin: 20px;}
+} 
+
+.img-back {
+    width: 100%; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: bottom;
+}
+
+.main-container {
+    width: 90%;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2),
+                 0 6px 20px 10px rgba(0, 0, 0, 0.18);
+    margin: auto;
+}
+
+.aboutme {width: 100%;border-radius: 7px 7px 0 0;}
+.header2, .all-of-me {width: 100%;}
+.header2 {font-size: 32px; padding: 20px;}
+.me-txt {width: 100%;} 
+.foto-of-me {border-radius: 50%;border-color: #e87888;}
+
+.portfolio {background-color:#e87888;}
+.projects {width: 100%;height: 200px;}
+
+.whyme {background-image: url('/img/tlo4.jpg');}
+.whyme-txt {width: 100%;height: 200px;}
+
+.contact {
+    background-color: #eae8e5;
+    border-radius: 0 0 7px 7px;
+}
+.ue-txt {width: 100%;height: 200px;}
+
+footer {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color:#2b0549;
+    margin-top: -30px;
+    position: absolute;
+    z-index: -1;
+}

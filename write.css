@@ -1,0 +1,53 @@
+@media only screen and (max-width: 800px) {
+    #blok {
+        font-size:45px;top: 15%;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        color: #ffffff;
+        position: relative;
+        float:left;
+        font-family: 'Anonymous Pro', monospace;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        background-color:#2b0549;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #blok {font-size:64px;top: 20%;}
+    #blok > span {height: 100%;}
+    #blok > span { animation: write 20s steps(29, start), letter 1.3s step-end infinite;}
+}
+
+#blok {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    position: relative;
+    float:left;
+    font-family: 'Anonymous Pro', monospace;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    background-color:#2b0549;
+  }
+  
+  #blok > span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #2b0549;
+      border-left: 10px solid transparent;
+  }
+
+  @keyframes write {
+    0% {width:100%;}
+    100%  {width:0;}
+}
+  
+  @keyframes letter {
+      0% {border-left-color: transparent;}
+      50% {border-left-color: #ffffff}
+      100% {border-left-color: transparent;}
+  }
