@@ -1,4 +1,4 @@
-# -choinka-
+# -generator choinki-
 #
 ##
 ###
